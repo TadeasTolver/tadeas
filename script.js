@@ -42,17 +42,17 @@ window.changeToCz = animation => {
 
     setTimeout(() => {
         if (document.body.id === "index") {
-            document.querySelectorAll("#contents a")[0].innerHTML = "WEBOVÉ STRÁNKY";
-            document.querySelectorAll("#contents a")[1].innerHTML = "KONTAKT";
-            document.querySelectorAll("#contents a")[2].innerHTML = "KDO JSEM";
-            document.querySelectorAll("#contents a")[3].innerHTML = "ONLINE PLATFORMY";
+            document.querySelectorAll("#contents a")[0].innerHTML = "WEBOVÉ STRÁNKY >";
+            document.querySelectorAll("#contents a")[1].innerHTML = "KONTAKT >";
+            document.querySelectorAll("#contents a")[2].innerHTML = "KDO JSEM >";
+            document.querySelectorAll("#contents a")[3].innerHTML = "ONLINE PLATFORMY >";
         } else if (document.body.id === "websites") {
             document.querySelectorAll("h1")[0].innerHTML = "Webové stránky";
             document.querySelector(".main-p").innerHTML = "Díky naslouchání svým zakazníkům, dokážu vytvořit stránky s vizuálním stylem a obsahem který si přeje zákazník.<br>Snažím se vytvářet stránky které jsou efektivní, intuitivní a dobře vypadající.<br>Také se snažím udělat proces co nejsnažší pro zakazníka a proto nabízím hosting zadarmo, a pokud má zakazník zájem, mohu zakoupit doménu za něj.";
             document.querySelectorAll("h3")[0].innerHTML = "Stránka pro audio dokumentaristku Brit Jensen";
             document.querySelectorAll("h3")[1].innerHTML = "Stránka pro sochaře a fotografa Jiřího Plieštika";
             document.querySelectorAll("h3")[2].innerHTML = "Stránka pro socioložku Kateřinu Nedbálkovou";
-            document.querySelectorAll("h3")[3].innerHTML = "Stránka pro dokumentaristku Evu Lammelovou";
+            document.querySelectorAll("h3")[3].innerHTML = "Stránka pro dokumenta-<br>ristku Evu Lammelovou";
             document.querySelectorAll("h1")[1].innerHTML = "ZÍSKEJTE SVÉ";
             document.querySelectorAll("h3")[4].innerHTML = '- Zdarma hosting <span style="color: var(--green)">✔</span>';
             document.querySelectorAll("h3")[5].innerHTML = '- Vlastní design <span style="color: var(--green)">✔</span>';
@@ -71,7 +71,7 @@ window.changeToCz = animation => {
         }
 
         if (document.body.id != "index") {
-            document.querySelectorAll("#navigation-links a")[1].innerHTML = "WEBOVÉ STRÁNKY";
+            document.querySelectorAll("#navigation-links a")[1].innerHTML = "WEBY";
             document.querySelectorAll("#navigation-links a")[2].innerHTML = "KONTAKT";
             document.querySelectorAll("#navigation-links a")[3].innerHTML = "KDO JSEM";
         }
@@ -90,10 +90,10 @@ window.changeToEn = animation => {
 
     setTimeout(() => {
         if (document.body.id === "index") {
-            document.querySelectorAll("#contents a")[0].innerHTML = "WEBSITES";
-            document.querySelectorAll("#contents a")[1].innerHTML = "CONTACT";
-            document.querySelectorAll("#contents a")[2].innerHTML = "WHO I AM";
-            document.querySelectorAll("#contents a")[3].innerHTML = "ONLINE PLATFORMS";
+            document.querySelectorAll("#contents a")[0].innerHTML = "WEBSITES >";
+            document.querySelectorAll("#contents a")[1].innerHTML = "CONTACT >";
+            document.querySelectorAll("#contents a")[2].innerHTML = "WHO I AM >";
+            document.querySelectorAll("#contents a")[3].innerHTML = "ONLINE PLATFORMS >";
         } else if (document.body.id === "websites") {
             document.querySelectorAll("h1")[0].innerHTML = "Websites";
             document.querySelector(".main-p").innerHTML = "By listening carefully to my customers, I am able to create websites with the visual style and content they desire.<br>I strive to create websites that are effective, intuitive, and good looking.<br>I walso want to make the process as easy as possible for the customer, therefore I offer free hosting,<br>and if desired, I can purchase a domain name on the customers behalf, so they don't need to worry.";
@@ -111,11 +111,11 @@ window.changeToEn = animation => {
             document.querySelector("h1").innerHTML = "Contact";
         } else if (document.body.id === "whoiam") {
             document.querySelector("h1").innerHTML = 'Who I am';
-            document.querySelectorAll("h2")[0].innerHTML = "Residence";
+            document.querySelectorAll("h2")[0].innerHTML = "Place of residence";
             document.querySelectorAll("h3")[0].innerHTML = "Denmark";
             document.querySelectorAll("h2")[1].innerHTML = "Education";
             document.querySelectorAll("h2")[2].innerHTML = "Citizenship";
-            document.querySelectorAll("h3")[2].innerHTML = "Czechia, Denmark";
+            document.querySelectorAll("h3")[2].innerHTML = "Czech, Denish";
         }
 
         if (document.body.id != "index") {
@@ -135,7 +135,7 @@ if (localStorage.getItem("lan") === "cz") {
 // other stuff:
 
 window.openContact = () => {
-    window.location.href = "http://127.0.0.1:5500/contact.html"; // CHANGE URL !!!!!!!!!!!!!!!!
+    window.location.href = "contact.html";
 }
 
 window.copyMail = () => {
