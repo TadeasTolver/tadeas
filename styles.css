@@ -190,6 +190,8 @@ footer h3 {
     max-height: calc(100px - 1vw);
     margin-left: calc(clamp(150px, 15vw, 15vw) + 35px);
     text-align: left;
+    color: white;
+    font-weight: 500;
 }
 
 .hexagon {
@@ -243,24 +245,6 @@ footer h3 {
 .website h3 {
     margin: 0;
     
-}
-
-
-@media (max-width: 600px) {
-    .website img {
-        width: 49%;
-        aspect-ratio: 1/1.67;
-        border-radius: 5px;
-    }
-
-    .website div {
-        width: 49%;
-        aspect-ratio: 1/1.67;
-    }
-
-    .website h2 {
-        font-size: 18px;
-    }
 }
 
 #getyoursnow {
@@ -346,4 +330,31 @@ footer h3 {
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--green);
+}
+
+/* phone: */
+
+@media (max-width: 600px) {
+    #name-title {
+        font-size: 45px;
+    }
+
+    #contents {
+        margin-bottom: 30vh;
+    }
+
+    .website img {
+        width: 49%;
+        aspect-ratio: 1/1.67;
+        border-radius: 5px;
+    }
+
+    .website div {
+        width: 49%;
+        aspect-ratio: 1/1.67;
+    }
+
+    .website h2 {
+        font-size: 18px;
+    }
 }
