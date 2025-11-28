@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Tadeas Tolver Pliestik Jensen - websites/webové stránky."/>
+  <title>TADEAS</title>
+  <link rel="icon" href="T.png">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body id="websites">
+
+    <div id="navigation">
+        <div id="lan-btns" class="big">
+            <button id="cz-btn" onclick="changeToCz(true)">ČS</button>
+            <button id="en-btn" onclick="changeToEn(true)">EN</button>
+        </div>
+
+        <div id="navigation-links" class="subtle-animation lan-change-animation">
+            <a href="index.html">INDEX</a>
+            <a href="websites.html" id="current-page">WEBSITES</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="whoiam.html">WHO I AM</a>
+        </div>
+
+    </div>
+
+
+    <h1 class="subtle-animation lan-change-animation">Websites</h1>
+    <p class="subtle-animation main-p lan-change-animation">By listening carefully to my customers, I am able to create websites with the visual style and content they desire.<br>I strive to create websites that are effective, intuitive, and good looking.<br>I walso want to make the process as easy as possible for the customer, therefore I offer free hosting,<br>and if desired, I can purchase a domain name on the customers behalf, so they don't need to worry.</p>
+
+    <div id="websites-con">
+        <div class="website">
+            <img src="britjensendk.png" class="strong-animation"/>
+            <div class="subtle-animation lan-change-animation">
+                <h2><a href="https://britjensen.dk/" target="_blank">britjensen.dk</a></h2>
+                <h3>Website for audio-documentarist Brit Jensen</h3>
+            </div>
+        </div>
+
+        <div class="website">
+            <div class="subtle-animation lan-change-animation" style="text-align: right;">
+                <h2 text><a href="https://jiripliestik.top" target="_blank">jiripliestik.top</a></h2>
+                <h3>Website for sculptor and photographer Jiří Plieštik</h3>
+            </div>
+            <img src="jiripliestiktop.png" class="strong-animation"/>
+        </div>
+
+        <div class="website">
+            <img src="nedbalkocz.png" class="strong-animation"/>
+            <div class="subtle-animation lan-change-animation">
+                <h2><a href="http://nedbalko.cz/" target="_blank">nedbalko.cz</a></h2>
+                <h3>Website for sociologist Kateřina Nedbálková</h3>
+            </div>
+        </div>
+
+        <div class="website">
+            <div class="subtle-animation lan-change-animation" style="text-align: right;">
+                <h2><a href="http://lammelova.com/" target="_blank">lammelova.com</a></h2>
+                <h3>Website for documentarist Eva Lammelová</h3>
+            </div>
+            <img src="lammelovacom.png" class="strong-animation"/>
+        </div>
+
+    </div>
+
+    <div id="getyoursnow" class="subtle-animation lan-change-animation">
+        <h1>GET YOURS NOW</h1>
+        <h3>- Free hosting <span style="color: var(--green)">✔</span></h3>
+        <h3>- Custom design <span style="color: var(--green)">✔</span></h3>
+        <h3>- Pain-free process <span style="color: var(--green)">✔</span></h3>
+        <h3>- Low price compared to web development agencies <span style="color: var(--green)">✔</span></h3>
+        
+        <button onclick="openContact()">CONTACT</button>
+    </div>
+
+
+
+</body>
+<script defer type="module" src="script.js"></script>
+</html>
