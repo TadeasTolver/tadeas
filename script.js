@@ -48,16 +48,15 @@ window.changeToCz = animation => {
             document.querySelectorAll("#contents a")[3].innerHTML = "ONLINE PLATFORMY >";
         } else if (document.body.id === "websites") {
             document.querySelectorAll("h1")[0].innerHTML = "Webové stránky";
-            document.querySelector(".main-p").innerHTML = "Díky naslouchání svým zakazníkům, dokážu vytvořit stránky s vizuálním stylem a obsahem který si přeje zákazník.<br>Snažím se vytvářet stránky které jsou efektivní, intuitivní a dobře vypadající.<br>Také se snažím udělat proces co nejsnažší pro zakazníka a proto nabízím hosting zadarmo, a pokud má zakazník zájem, mohu zakoupit doménu za něj.";
+            document.querySelector(".main-p").innerHTML = "Vytvářím webové stránky pro lidi a malé podniky. Používám HTML, CSS, JS a jiné technologie, které nemusíte znát, pro vytváření a hostování webových stran na míru. Níže jsou některé které jsem vytvořil v minulosti.";
             document.querySelectorAll("h3")[0].innerHTML = "Stránka pro audio dokumentaristku Brit Jensen";
             document.querySelectorAll("h3")[1].innerHTML = "Stránka pro sochaře a fotografa Jiřího Plieštika";
             document.querySelectorAll("h3")[2].innerHTML = "Stránka pro socioložku Kateřinu Nedbálkovou";
             document.querySelectorAll("h3")[3].innerHTML = "Stránka pro dokumenta-<br>ristku Evu Lammelovou";
             document.querySelectorAll("h1")[1].innerHTML = "ZÍSKEJTE SVÉ";
-            document.querySelectorAll("h3")[4].innerHTML = '- Zdarma hosting <span style="color: var(--green)">✔</span>';
-            document.querySelectorAll("h3")[5].innerHTML = '- Vlastní design <span style="color: var(--green)">✔</span>';
-            document.querySelectorAll("h3")[6].innerHTML = '- Bezbolestný proces <span style="color: var(--green)">✔</span>';
-            document.querySelectorAll("h3")[7].innerHTML = '- Nízká cena v porovnání s agenturami <span style="color: var(--green)">✔</span>';
+            document.querySelectorAll("h3")[4].innerHTML = '- Vlastní design (ne jen šablona) <span style="color: var(--green)">✔</span>';
+            document.querySelectorAll("h3")[5].innerHTML = '- Určeno i pro mobily <span style="color: var(--green)">✔</span>';
+            document.querySelectorAll("h3")[6].innerHTML = '- Zdarma hosting <span style="color: var(--green)">✔</span>';
             document.querySelector("#getyoursnow button").innerHTML = "KONTAKT";
         } else if (document.body.id === "contact") {
             document.querySelector("h1").innerHTML = "Kontakt";
@@ -65,9 +64,8 @@ window.changeToCz = animation => {
             document.querySelector("h1").innerHTML = "Kdo jsem";
             document.querySelectorAll("h2")[0].innerHTML = "Místo pobytu";
             document.querySelectorAll("h3")[0].innerHTML = "Dánsko";
-            document.querySelectorAll("h2")[1].innerHTML = "Vzdělání";
-            document.querySelectorAll("h2")[2].innerHTML = "Občanství";
-            document.querySelectorAll("h3")[2].innerHTML = "České, dánské";
+            document.querySelectorAll("h2")[1].innerHTML = "Jazyky";
+            document.querySelectorAll("h3")[1].innerHTML = "Český, anglický, dánský";
         }
 
         if (document.body.id != "index") {
@@ -96,16 +94,15 @@ window.changeToEn = animation => {
             document.querySelectorAll("#contents a")[3].innerHTML = "ONLINE PLATFORMS >";
         } else if (document.body.id === "websites") {
             document.querySelectorAll("h1")[0].innerHTML = "Websites";
-            document.querySelector(".main-p").innerHTML = "By listening carefully to my customers, I am able to create websites with the visual style and content they desire.<br>I strive to create websites that are effective, intuitive, and good looking.<br>I walso want to make the process as easy as possible for the customer, therefore I offer free hosting,<br>and if desired, I can purchase a domain name on the customers behalf, so they don't need to worry.";
+            document.querySelector(".main-p").innerHTML = "I create websites for people and small businesses. I use HTML, CSS, JS and other technologies you don’t need to know about to create custom websites and host them. Below are some I have done in the past.";
             document.querySelectorAll("h3")[0].innerHTML = "Website for audio documentarist Brit Jensen.";
             document.querySelectorAll("h3")[1].innerHTML = "Website for sculptor and photographer Jiří Plieštik.";
             document.querySelectorAll("h3")[2].innerHTML = "Website for sociologist Kateřina Nedbálková";
             document.querySelectorAll("h3")[3].innerHTML = "Website for documentarist Eva Lammelová";
             document.querySelectorAll("h1")[1].innerHTML = "GET YOURS NOW";
-            document.querySelectorAll("h3")[4].innerHTML = '- Free hosting <span style="color: var(--green)">✔</span>';
-            document.querySelectorAll("h3")[5].innerHTML = '- Custom design <span style="color: var(--green)">✔</span>';
-            document.querySelectorAll("h3")[6].innerHTML = '- Pain-free process <span style="color: var(--green)">✔</span>';
-            document.querySelectorAll("h3")[7].innerHTML = '- Low price compared to web development agencies <span style="color: var(--green)">✔</span>';
+            document.querySelectorAll("h3")[4].innerHTML = '- Custom design (not just a template) <span style="color: var(--green)">✔</span>';
+            document.querySelectorAll("h3")[5].innerHTML = '- Mobile friendly <span style="color: var(--green)">✔</span>';
+            document.querySelectorAll("h3")[6].innerHTML = '- Free hosting <span style="color: var(--green)">✔</span>';
             document.querySelector("#getyoursnow button").innerHTML = "CONTACT";
         } else if (document.body.id === "contact") {
             document.querySelector("h1").innerHTML = "Contact";
@@ -113,9 +110,8 @@ window.changeToEn = animation => {
             document.querySelector("h1").innerHTML = 'Who I am';
             document.querySelectorAll("h2")[0].innerHTML = "Place of residence";
             document.querySelectorAll("h3")[0].innerHTML = "Denmark";
-            document.querySelectorAll("h2")[1].innerHTML = "Education";
-            document.querySelectorAll("h2")[2].innerHTML = "Citizenship";
-            document.querySelectorAll("h3")[2].innerHTML = "Czech, Denish";
+            document.querySelectorAll("h2")[1].innerHTML = "Languages";
+            document.querySelectorAll("h3")[1].innerHTML = "English, Danish, Czech";
         }
 
         if (document.body.id != "index") {
