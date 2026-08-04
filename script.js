@@ -48,7 +48,7 @@ window.changeToCz = animation => {
             document.querySelectorAll("#contents a")[3].innerHTML = "ONLINE PLATFORMY >";
         } else if (document.body.id === "websites") {
             document.querySelectorAll("h1")[0].innerHTML = "Webové stránky";
-            document.querySelector(".main-p").innerHTML = "Vytvářím webové stránky pro lidi a malé podniky. Používám HTML, CSS, JS a jiné technologie, které nemusíte znát, pro vytváření a hostování webových stran na míru. Níže jsou některé které jsem vytvořil v minulosti.";
+            document.querySelector(".main-p").innerHTML = "Vytvářím webové stránky pro lidi a malé podniky. Používám HTML, CSS, JS a jiné technologie pro vytváření a hostování webových stran na míru. Níže jsou některé které jsem vytvořil v minulosti.";
             document.querySelectorAll("h3")[0].innerHTML = "Stránka pro audio dokumentaristku Brit Jensen";
             document.querySelectorAll("h3")[1].innerHTML = "Stránka pro sochaře a fotografa Jiřího Plieštika";
             document.querySelectorAll("h3")[2].innerHTML = "Stránka pro socioložku Kateřinu Nedbálkovou";
