@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    background-color: white;
+    
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cantarell', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 102vh;
+}
+
+#index {
+    padding: 0;
+    background-image: url("images/trees.jpg");
+    background-size: 100% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 170vh;
+}
+
+#main-container {
+   padding: 8vw 15vw 5vw 15vw;
+   background-color: white; 
+}
+
+h1 {
+    font-family: 'Cantarell', sans-serif;
+    color: black;
+    opacity: 0.5;
+    font-size: 7vh;
+    background: none;
+    margin-bottom: 2.5vw;
+
+} 
+
+h2 {
+    font-family: 'Cantarell', sans-serif;
+    color: black;
+    opacity: 0.4;
+    font-size: 5vh;
+    background: none;
+    margin-bottom: 2.5vw;
+    margin-top: 5vh;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vh;
+    background: none;
+    margin-bottom: 5vh;
+}
+
+#buttons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#buttons-container button {
+    border: 1px solid black;
+    padding: 4px;
+    opacity: 0.3;
+    font-size: 2vh;
+}
+
+p, a {
+    color: black;
+    opacity: 0.5;
+    font-size: 3vh;
+    text-decoration: none;
+    line-height: 35px;
+    letter-spacing: 0.1vw;   
+    background: none;
+} 
+
+p {
+    font-size: 2.5vh;
+}
+
+.hyperlink {
+    font-size: 2.5vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    width: 100vw;
+    height: 360px;
+    background-image: url("images/hills.jpg");
+    background-size: cover;
+
+}
+
+.footer-email {
+    font-family: 'Tagesschrift', sans-serif;
+    font-weight: 700;
+    opacity: 0.8;
+    background-color: white;
+    padding: 0px 40px 0px 15px;
+    height: 38px;
+    margin-top: 250px;
+}
+
+.footer-text {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2vh;
+    font-weight: 100;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.329);
+    color: black;
+    padding: 0px 15px 0px 15px;
+    height: 38px;
+    margin-top: 250px;
+    display: none;
+}
+
+#sites-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+}
+
+.site-img {
+    width: 100%;
+    margin-bottom: 3.5vh;
+}
+
+.site p {
+    opacity: 0.25;
+    font-size: 2.3vh;
+    line-height: 22px;
+}
+
+@media (min-width: 600px) {
+    #who, #index {
+        overflow-y: hidden;
+    }
+}
